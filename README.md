@@ -14,6 +14,9 @@ sudo systemctl enable apache2
 
 sudo apt-get install mysql-server -y
 
+sudo apt update
+sudo apt install mysql-client-core-8.0 -- updates sql
+
 --------------------------------------------------------------------------------------------------------------------
 
 # Connecting to My SQL Database
